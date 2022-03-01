@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
-ruby '>= 2.5', '< 3.1'
+ruby "3.1.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.0'
+gem "rails", "~> 7.0.2", ">= 7.0.2.2"
 # Use postgresql as the database for Active Record
-gem 'pg', '~> 0.18'
+gem "pg"
+
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
@@ -31,11 +32,10 @@ gem 'spring',        group: :development
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem 'puma'
+gem "puma", "~> 5.0"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
